@@ -9,7 +9,7 @@
       "summary": "Sound effects, ambience loops and short music beds, every one synthesised by a script.",
       "license": "CC0-1.0",
       "holds": ["banks"],
-      "tags": ["sounds", "effects", "ambience", "music", "weather", "interface", "rooms", "synthetic", "knock", "door", "bell", "tick", "heartbeat", "footsteps", "typing", "shutter"]
+      "tags": ["sounds", "effects", "ambience", "music", "weather", "interface", "rooms", "synthetic", "knock", "door", "bell", "tick", "heartbeat", "footsteps", "typing", "shutter", "click", "pop", "beep", "ding", "chime", "error", "success", "notification", "whoosh", "calm", "tense", "bright", "pulse", "open", "close", "riser", "impact", "hum", "murmur", "fire", "rain", "wind", "sea", "night", "birds", "thunder"]
     }
   ]
 }
