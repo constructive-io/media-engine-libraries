@@ -1,6 +1,6 @@
-# media-libraries — agent guide
+# media-engine-libraries — agent guide
 
-The index [Constructive Media](https://github.com/constructive-io/constructive-media)
+The index [Constructive Media](https://github.com/constructive-io/media-engine)
 reads when no other is named. One file, [`media-index.json`](./media-index.json), lists
 libraries and where each is. [README.md](./README.md) says what every key means.
 

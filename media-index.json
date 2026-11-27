@@ -1,11 +1,11 @@
 {
   "index": "constructive",
   "summary": "Libraries for Constructive Media that anybody may use.",
-  "homepage": "https://github.com/constructive-io/media-libraries",
+  "homepage": "https://github.com/constructive-io/media-engine-libraries",
   "libraries": [
     {
       "name": "foley",
-      "source": "constructive-io/media-library-foley",
+      "source": "constructive-io/media-engine-library-foley",
       "summary": "Sound effects, ambience loops and short music beds, every one synthesised by a script.",
       "license": "CC0-1.0",
       "holds": ["banks"],

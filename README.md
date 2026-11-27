@@ -1,21 +1,21 @@
-# media-libraries
+# media-engine-libraries
 
 <p align="center" width="100%">
   <img height="250" src="https://raw.githubusercontent.com/constructive-io/constructive/refs/heads/main/assets/outline-logo.svg" alt="Constructive" />
 </p>
 
 <p align="center" width="100%">
-  <a href="https://github.com/constructive-io/media-libraries/actions/workflows/check.yml">
-    <img height="20" src="https://github.com/constructive-io/media-libraries/actions/workflows/check.yml/badge.svg" alt="Check status" />
+  <a href="https://github.com/constructive-io/media-engine-libraries/actions/workflows/check.yml">
+    <img height="20" src="https://github.com/constructive-io/media-engine-libraries/actions/workflows/check.yml/badge.svg" alt="Check status" />
   </a>
-  <a href="https://github.com/constructive-io/media-libraries/blob/main/LICENSE"><img height="20" src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license" /></a>
+  <a href="https://github.com/constructive-io/media-engine-libraries/blob/main/LICENSE"><img height="20" src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license" /></a>
 </p>
 
 <p align="center" width="100%">
   Where a library of voices, sounds and faces is found by its name.
 </p>
 
-A *library* for [Constructive Media](https://github.com/constructive-io/constructive-media)
+A *library* for [Constructive Media](https://github.com/constructive-io/media-engine)
 is a repository of voices to clone, banks of sounds and faces. This is the
 *index* the engine reads when no other is named: one file,
 [`media-index.json`](./media-index.json), that lists libraries and where each
@@ -33,7 +33,7 @@ media library add foley           # add one by its name
 
 | Library | Holds | Terms | What it is |
 | --- | --- | --- | --- |
-| [`foley`](https://github.com/constructive-io/media-library-foley) | banks of sounds | CC0-1.0 | Sound effects, ambience loops and short music beds, every one made by a script |
+| [`foley`](https://github.com/constructive-io/media-engine-library-foley) | banks of sounds | CC0-1.0 | Sound effects, ambience loops and short music beds, every one made by a script |
 
 ## What an index is, and is not
 
@@ -48,12 +48,12 @@ Anybody can keep an index of their own, in a folder or a repository, and have
 their machine read it first:
 
 ```sh
-export CONSTRUCTIVE_MEDIA_LIBRARY_INDEX=~/indexes/ours,constructive-io/media-libraries
+export CONSTRUCTIVE_MEDIA_LIBRARY_INDEX=~/indexes/ours,constructive-io/media-engine-libraries
 ```
 
 ## List a library here
 
-Start one from [voice-boilerplates](https://github.com/constructive-io/voice-boilerplates),
+Start one with `media init library NAME`, from [media-engine-boilerplates](https://github.com/constructive-io/media-engine-boilerplates),
 and open a pull request that adds it to `media-index.json`, in the order of
 its name:
 
