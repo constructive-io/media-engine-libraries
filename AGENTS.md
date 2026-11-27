@@ -23,5 +23,5 @@ libraries and where each is. [README.md](./README.md) says what every key means.
 
 ```sh
 python3 scripts/check.py                       # must print ok
-me library check <a clone of the library>      # for every library you added
+media library check <a clone of the library>   # for every library you added
 ```

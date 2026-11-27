@@ -7,7 +7,7 @@
 It says everything wrong with the file: a library with no name, an address
 that is not one, a library listed twice. It needs Python 3.9 and nothing
 else, so it runs on every push. It does not fetch the libraries: an index
-says where a library is and does not vouch for it. `me library add NAME`,
+says where a library is and does not vouch for it. `media library add NAME`,
 from Constructive Media, reads and checks the library itself.
 """
 

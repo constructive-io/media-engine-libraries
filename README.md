@@ -22,12 +22,12 @@ is a repository of voices to clone, banks of sounds and faces. This is the
 one is.
 
 ```sh
-me library search                 # every library listed here
-me library search weather sounds  # those with every word in them
-me library add foley              # add one by its name
+media library search              # every library listed here
+media library search weather sounds  # those with every word in them
+media library add foley           # add one by its name
 ```
 
-`me` is the command of Constructive Media. The name is short for "media engine".
+`media` is the command of Constructive Media.
 
 ## What is listed
 
@@ -41,7 +41,7 @@ An index says where a library is, and nothing more. It does not hold a
 library, and it does not vouch for one: the engine reads and checks a library
 when it is added, as it would any other, and refuses one that is not called
 what the index calls it. A render never needs an index. A project pins its
-libraries by commit in `media-libraries.json`, and `me library install` fetches
+libraries by commit in `media-libraries.json`, and `media library install` fetches
 those from their own addresses.
 
 Anybody can keep an index of their own, in a folder or a repository, and have
@@ -78,7 +78,7 @@ its name:
 | `tags` | more words to find it by |
 
 To be listed, a library has to be one anybody can fetch, say its terms, and
-pass `me library check`. A library with voices says for every one whose voice
+pass `media library check`. A library with voices says for every one whose voice
 it is and by what right it is there; a voice with no consent written down is
 not listed, and neither is a voice cloned from a recording somebody found.
 
