@@ -29,6 +29,16 @@ media library add foley           # add one by its name
 
 `media` is the command of Constructive Media.
 
+## Features
+
+* 📚 **[Libraries](https://github.com/constructive-io/media-engine/blob/main/docs/LIBRARIES.md)** — a library is a repository of voices to clone, banks of sounds and faces, with a `media-library.json` that says what is in it
+* 🔎 **[Found by name](#what-is-listed)** — `media library search` reads this index, and `media library add NAME` adds what it lists under that name
+* 🛡️ **[Checked when added](#what-an-index-is-and-is-not)** — an index does not vouch for a library: the engine reads and checks each one it adds, and refuses one that is not called what the index calls it
+* 📌 **[Pinned by commit](#what-an-index-is-and-is-not)** — a project keeps its libraries and their commits in `media-libraries.json`, and `media library install` fetches those from their own addresses
+* 🤝 **[Consent with every voice](#list-a-library-here)** — a library says for every voice whose it is and by what right it is there; a voice with no consent written down is not listed
+* 🗂️ **[An index of your own](#what-an-index-is-and-is-not)** — a folder or a repository with a `media-index.json`, read first when `CONSTRUCTIVE_MEDIA_LIBRARY_INDEX` names it first
+* ➕ **[List yours](#list-a-library-here)** — start a library with `media init library NAME`, then open a pull request that adds it to `media-index.json`
+
 ## What is listed
 
 | Library | Holds | Terms | What it is |
